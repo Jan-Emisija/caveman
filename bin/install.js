@@ -1161,9 +1161,9 @@ async function main() {
     // missing without --force).
     if (!explicit(prov.id) && !detectMatch(prov.detect)) continue;
     if (prov.id === 'claude')   { await installClaude(ctx); continue; }
-    if (prov.id === 'gemini')   { installGemini(ctx); continue; }
-    if (prov.id === 'opencode') { installOpencode(ctx); continue; }
-    if (prov.id === 'openclaw') { installOpenclaw(ctx); continue; }
+    //if (prov.id === 'gemini')   { installGemini(ctx); continue; }
+    //if (prov.id === 'opencode') { installOpencode(ctx); continue; }
+    //if (prov.id === 'openclaw') { installOpenclaw(ctx); continue; }
     if (prov.profile)           { installViaSkills(ctx, prov); continue; }
   }
 
