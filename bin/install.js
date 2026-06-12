@@ -48,7 +48,7 @@ function parseArgs(argv) {
     dryRun: false, force: false, skipSkills: false,
     withHooks: 'auto', withInit: false, withMcpShrink: 'false',
     all: false, minimal: false, listOnly: false, noColor: false,
-    only: [], uninstall: false, nonInteractive: false,
+    only: [claude], uninstall: false, nonInteractive: false,
     configDir: null, help: false,
   };
   for (let i = 0; i < argv.length; i++) {
