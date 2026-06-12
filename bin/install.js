@@ -46,7 +46,7 @@ const HOOK_FILES = [
 function parseArgs(argv) {
   const opts = {
     dryRun: false, force: false, skipSkills: false,
-    withHooks: 'auto', withInit: false, withMcpShrink: 'auto',
+    withHooks: 'auto', withInit: false, withMcpShrink: 'false',
     all: false, minimal: false, listOnly: false, noColor: false,
     only: [], uninstall: false, nonInteractive: false,
     configDir: null, help: false,
