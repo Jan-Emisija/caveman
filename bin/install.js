@@ -60,7 +60,7 @@ function parseArgs(argv) {
       case '--with-hooks': opts.withHooks = true; break;
       case '--no-hooks': opts.withHooks = false; break;
       case '--with-init': opts.withInit = true; break;
-      case '--with-mcp-shrink': opts.withMcpShrink = true; break;
+      case '--with-mcp-shrink': opts.withMcpShrink = false; break;
       case '--no-mcp-shrink': opts.withMcpShrink = false; break;
       case '--all': opts.all = true; break;
       case '--minimal': opts.minimal = true; break;
